@@ -45,8 +45,9 @@ display:flex;align-items:center;justify-content:center;margin-bottom:16px;
 .avatar{
 width:120px;height:120px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6c5ce7);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:34px;box-shadow:0 8px 20px rgba(31,111,235,0.18);
 }
-h1{font-size:20px;margin:6px 0 0;color:#ffffff;padding-top:35px;padding-left:5px;}
-.title{color:#cfe2ff;font-weight:700;font-size:13px;padding-left:5px;}
+h1{font-size:20px;margin:6px 0 0;color:#0e64b1;padding-top:120px;padding-left:5px;text-align:center;
+}
+.title{color:##8a929f;font-weight:700;font-size:13px;padding-left:5px;color:var(--muted)}
 
 
 .contact{font-size:13px;color:var(--muted);line-height:1.6}
