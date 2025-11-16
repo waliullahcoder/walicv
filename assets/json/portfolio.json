@@ -1,0 +1,186 @@
+{
+  "filters": [
+    { "key": "*", "title": "All" },
+    { "key": "filter-app", "title": "App" },
+    { "key": "filter-product", "title": "Product" },
+    { "key": "filter-branding", "title": "Branding" },
+    { "key": "filter-books", "title": "Books" }
+  ],
+
+  "items": [
+    {
+      "id": 1,
+      "title": "App 1",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-app",
+      "image": "assets/img/portfolio/app-1.jpg",
+      "gallery": "portfolio-gallery-app",
+      "details_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Product 1",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-product",
+      "image": "assets/img/portfolio/product-1.jpg",
+      "gallery": "portfolio-gallery-product",
+      "details_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Branding 1",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-branding",
+      "image": "assets/img/portfolio/branding-1.jpg",
+      "gallery": "portfolio-gallery-branding",
+      "details_id": 3
+    },
+    {
+      "id": 4,
+      "title": "Books 1",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-books",
+      "image": "assets/img/portfolio/books-1.jpg",
+      "gallery": "portfolio-gallery-book",
+      "details_id": 4
+    },
+
+    {
+      "id": 5,
+      "title": "App 2",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-app",
+      "image": "assets/img/portfolio/app-2.jpg",
+      "gallery": "portfolio-gallery-app",
+      "details_id": 5
+    },
+    {
+      "id": 6,
+      "title": "Product 2",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-product",
+      "image": "assets/img/portfolio/product-2.jpg",
+      "gallery": "portfolio-gallery-product",
+      "details_id": 6
+    },
+    {
+      "id": 7,
+      "title": "Branding 2",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-branding",
+      "image": "assets/img/portfolio/branding-2.jpg",
+      "gallery": "portfolio-gallery-branding",
+      "details_id": 7
+    },
+    {
+      "id": 8,
+      "title": "Books 2",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-books",
+      "image": "assets/img/portfolio/books-2.jpg",
+      "gallery": "portfolio-gallery-book",
+      "details_id": 8
+    },
+
+    {
+      "id": 9,
+      "title": "App 3",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-app",
+      "image": "assets/img/portfolio/app-3.jpg",
+      "gallery": "portfolio-gallery-app",
+      "details_id": 9
+    },
+    {
+      "id": 10,
+      "title": "Product 3",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-product",
+      "image": "assets/img/portfolio/product-3.jpg",
+      "gallery": "portfolio-gallery-product",
+      "details_id": 10
+    },
+    {
+      "id": 11,
+      "title": "Branding 3",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-branding",
+      "image": "assets/img/portfolio/branding-3.jpg",
+      "gallery": "portfolio-gallery-branding",
+      "details_id": 11
+    },
+    {
+      "id": 12,
+      "title": "Books 3",
+      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "category_class": "filter-books",
+      "image": "assets/img/portfolio/books-3.jpg",
+      "gallery": "portfolio-gallery-book",
+      "details_id": 12
+    }
+  ],
+
+  "details": [
+    {
+      "id": 1,
+      "title": "Modern Web Application",
+      "images": [
+        "assets/img/portfolio/app-1.jpg",
+        "assets/img/portfolio/product-1.jpg",
+        "assets/img/portfolio/branding-1.jpg",
+        "assets/img/portfolio/books-1.jpg"
+      ],
+      "category": "Web Design",
+      "client": "ASU Company",
+      "project_date": "01 March, 2020",
+      "project_url": "https://www.example.com",
+      "description_title": "Exercitationem repudiandae officiis neque suscipit",
+      "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim."
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Platform",
+      "images": [
+        "assets/img/portfolio/product-2.jpg",
+        "assets/img/portfolio/product-3.jpg",
+        "assets/img/portfolio/app-3.jpg"
+      ],
+      "category": "E-Commerce",
+      "client": "Digital Store",
+      "project_date": "10 June, 2022",
+      "project_url": "https://store.example.com",
+      "description_title": "Full E-commerce Website",
+      "description": "A powerful e-commerce system built with Laravel, React, and MySQL. Includes admin panel, order management, and payment integration."
+    },
+    {
+      "id": 3,
+      "title": "Mobile App UI/UX",
+      "images": [
+        "assets/img/portfolio/app-2.jpg",
+        "assets/img/portfolio/app-4.jpg"
+      ],
+      "category": "UI/UX Design",
+      "client": "AppTech",
+      "project_date": "20 August, 2021",
+      "project_url": "https://apptech.com",
+      "description_title": "Beautiful Mobile App UI",
+      "description": "Creative UI/UX design for a modern mobile application, focused on user experience, clean interface, and smooth interactions."
+    },
+    {
+      "id": 4,
+      "title": "Mobile App UI/UX WWW",
+      "images": [
+        "assets/img/portfolio/product-3.jpg",
+        "assets/img/portfolio/product-3.jpg",
+        "assets/img/portfolio/app-2.jpg",
+        "assets/img/portfolio/product-3.jpg"
+      ],
+      "category": "UI/UX Design WW",
+      "client": "AppTech",
+      "project_date": "20 August, 2021",
+      "project_url": "https://apptech.com",
+      "description_title": "Beautiful Mobile App UI WW2",
+      "description": "Creative UI/UX design for a modern mobile application, focused on user experience, clean interface, and smooth interactions."
+    }
+  ]
+}

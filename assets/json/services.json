@@ -1,0 +1,82 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Design",
+      "short_description": "Professional website UI/UX and responsive design.",
+      "image": "assets/img/services/services.jpg",
+      "description_title": "Creative Web Design Services",
+      "description": "We provide modern responsive web design using HTML, CSS, JS and frameworks like Bootstrap and Tailwind.",
+      "points": [
+        "Responsive and SEO-friendly design",
+        "Fast loading speed optimization",
+        "Modern UI/UX creativity"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Software Development",
+      "short_description": "Custom software for business solutions.",
+      "image": "assets/img/services/services.jpg",
+      "description_title": "Custom Software Solutions",
+      "description": "We build scalable software using Laravel, Node.js, Java Spring Boot, and React.",
+      "points": [
+        "Secure and scalable backend",
+        "Clean architecture",
+        "API development"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Product Management",
+      "short_description": "Product planning and development strategy.",
+      "image": "assets/img/services/services.jpg",
+      "description_title": "Product Strategy Consulting",
+      "description": "We help businesses build products from idea to launch.",
+      "points": [
+        "Research-based planning",
+        "Market analysis",
+        "Product roadmap design"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Product Management4",
+      "short_description": "Product planning and development strategy.",
+      "image": "assets/img/services/services.jpg",
+      "description_title": "Product Strategy Consulting",
+      "description": "We help businesses build products from idea to launch.",
+      "points": [
+        "Research-based planning",
+        "Market analysis",
+        "Product roadmap design"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Product Management5",
+      "short_description": "Product planning and development strategy.",
+      "image": "assets/img/services/services.jpg",
+      "description_title": "Product Strategy Consulting",
+      "description": "We help businesses build products from idea to launch.",
+      "points": [
+        "Research-based planning",
+        "Market analysis",
+        "Product roadmap design"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Product Management6",
+      "short_description": "Product planning and development strategy.",
+      "image": "assets/img/services/services.jpg",
+      "description_title": "Product Strategy Consulting",
+      "description": "We help businesses build products from idea to launch.",
+      "points": [
+        "Research-based planning",
+        "Market analysis",
+        "Product roadmap design"
+      ]
+    }
+  ]
+}
