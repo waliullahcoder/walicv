@@ -82,6 +82,7 @@ if (!$item) {
             <li><strong>Category</strong>: <?php echo $item['category']; ?></li>
             <li><strong>Client</strong>: <?php echo $item['client']; ?></li>
             <li><strong>Project date</strong>: <?php echo $item['project_date']; ?></li>
+            <li><strong>Github URL</strong>: <a href="<?php echo $item['github_url']; ?>" target="_blank"><?php echo $item['github_url']; ?></a></li>
             <li><strong>Project URL</strong>: <a href="<?php echo $item['project_url']; ?>" target="_blank"><?php echo $item['project_url']; ?></a></li>
           </ul>
         </div>

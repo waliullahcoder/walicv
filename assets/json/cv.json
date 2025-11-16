@@ -7,9 +7,11 @@
     "phone": ["+88 01575020231", "+8801921588567"],
     "location": "H#15, R#05, D-Block, Sector-1, Aftabnagar, Dhaka-1219",
     "github": "github.com/waliullahcoder",
-    "gitlab": "gitlab.com/wali786",
+    "signalhire": "signalhire.com/profiles/wali-ullah%27s-email/191268845",
+    "theorg": "theorg.com/org/veefin/org-chart/wali-ullah",
     "linkedin": "linkedin.com/in/walicoder/",
-    "facebook": "facebook.com/waliullahbiplob"
+    "facebook": "facebook.com/waliullahbiplob",
+    "Profile": "wwcoders.net"
   },
   "skills": {
     "core": ["Laravel", "React", "Node.js", "Spring Boot", "Database", "Deployment"],
@@ -24,7 +26,7 @@
     "Red Hat Linux System Administration",
     "Certified Solutions Architect — AWS (CSA-Associate)"
   ],
-  "summary": "Highly efficient and talented Senior/Lead Software Engineer with 10+ years of experience. Proficient in full-stack development with Laravel, React, Node.js, and Java (Spring Boot). Skilled in API design, cloud deployment, CI/CD, database management, and production-level software engineering. Adept at leading teams, mentoring developers, and delivering high-quality scalable software solutions.",
+  "summary": "Highly efficient Senior/Lead Software Engineer with 10+ years of experience building scalable, high-performance systems for global teams. Specialized in full-stack development using Laravel, React, Node.js and Java (Spring Boot). Expert in API architecture, cloud-native deployments (AWS), CI/CD automation, and production-grade problem solving. Proven track record of leading distributed teams, mentoring developers, and delivering reliable software in remote, async-first environments. Known for ownership, clear communication, and consistently shipping high-quality solutions.",
   "experience": [
     {"role": "Sr. Software Engineer", "company": "Veefin Solution Ltd.", "duration": "Nov 15, 2021 — Present", "location": "Mumbai, India", "details": "Developed supply chain, banking, and fintech solutions across multiple countries using Laravel, JS, and MySQL."},
     {"role": "Sr. Software Engineer (Contract)", "company": "Alakmalak Technologies", "duration": "Nov 01, 2020 — Feb 26, 2021", "location": "Ahmedabad, India", "details": "Handled loan and banking integration projects with ERP systems, APIs, and backend services."},
@@ -35,11 +37,13 @@
     {"role": "Trainer in Programming", "company": "US Software Ltd.", "duration": "Oct 2013 — Dec 2013", "location": "Dhaka, Bangladesh","details": "Worked on microfinance, dealer, seller, and distributor management systems using Laravel and Vue.js."}
   ],
   "projects": [
-    {"name": "e-Commerce Site (Nakshi, Australia)", "technologies": "Laravel, Stripe, JS, Bootstrap, MySQL", "description": "e-Commerce Site (Nakshi, Australia)","link": "http://nakshi-au.com/"},
-    {"name": "e-Learning Platform (BMOOC)", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, Laravel, JS, Bootstrap, MySQL", "link": "http://bmooc.net/"},
-    {"name": "Hotel Management System", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, JS, Bootstrap, MySQL", "link": "http://hotelvictorybd.net/"},
-    {"name": "School Management System", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, JS, Bootstrap, MySQL", "link": "http://faisacbd.com/"},
-    {"name": "School Management System", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, JS, Bootstrap, MySQL", "link": "http://faisacbd.com/"},
+    {"name": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)", "description": "Amazing HRM & Payroll software is not just a visualize it’s now become an essential software for maintaining every corporate office. Any company can use it for their regular tasks, employee workforce management and account management.","technologies": "PHP, Laravel, JS, Bootstrap, MySQL", "link": "https://codecanyon.net/item/amazing-hrm-payroll/24605495"},
+    {"name": "Inventory Management System (Codester)", "technologies": "Laravel 10.x,PHP 8.1 or Higher, MySQL 8 / MariaDB, Bootstrap 5.3,JavaScript / jQuery", "description": "StockPanel is a professional Inventory Management System built with Laravel 10, Bootstrap 5.3, PHP 8.1, and MySQL 8. It provides complete stock control, product management, purchasing, sales, and customer management modules in a clean, responsive dashboard. Fully documented, easy to customize, and ready for deployment.","link": "https://www.codester.com/items/57853/stockpanel-laravel-inventory-management"},
+    {"name": "Akjon.com is all type of software development company", "description": "Akjon.com has been a leading software marketplace. We provide IT related solution.  We also develop Dynamic Web Application Software, SEO, Domain Hosting and Graphics design services. Our expert web developers provide the best user experience possible by extending your sites reliability, manageability and security.","technologies": "PHP, Laravel, JS, Bootstrap, MySQL", "link": "https://akjon.com/"},
+    {"name": "Xaoo.com is SAAS Accounting Software", "description": "Smart Accounting Solution with multiple essential reporting system Customize invoices, track expenses, manage inventory, payroll, generate reports, multiple roles and more - all in one place.","technologies": "PHP, Laravel, JS, Bootstrap, MySQL", "link": "https://xaoo.com/"},
+    {"name": "Accounting Software (Node and React)", "description": "Laravel 10 – Fully Clean MVC Structure Product, Category & Warehouse Management Inventory and Stock Tracking Supplier & Customer Modules Purchase & Sales (Invoice) Management Generate Purchase and Invoice PDFs Dynamic Dashboard with Charts & Analytics Role & Permission Management (RBAC) Fully Responsive – Desktop, Tablet, Mobile Dynamic Theme and Color Settings Clean UI and Modern Admin Panel","technologies": "React, Node.js, Material UI & Tailwind, MySQL", "link": "https://react.wwcoders.net/login"},
+    {"name": "Accounting Software (Spring Boot and React)", "description": "Laravel 10 – Fully Clean MVC Structure Product, Category & Warehouse Management Inventory and Stock Tracking Supplier & Customer Modules Purchase & Sales (Invoice) Management Generate Purchase and Invoice PDFs Dynamic Dashboard with Charts & Analytics Role & Permission Management (RBAC) Fully Responsive – Desktop, Tablet, Mobile Dynamic Theme and Color Settings Clean UI and Modern Admin Panel","technologies": "React, Spring Boot, Material UI & Tailwind, MySQL", "link": "https://react.wwcoders.net/login"},
+    
     {"name": "School Management System", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, JS, Bootstrap, MySQL", "link": "http://faisacbd.com/"},
     {"name": "School Management System", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, JS, Bootstrap, MySQL", "link": "http://faisacbd.com/"},
     {"name": "School Management System", "description": "e-Commerce Site (Nakshi, Australia)","technologies": "PHP, JS, Bootstrap, MySQL", "link": "http://faisacbd.com/"},

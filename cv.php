@@ -10,10 +10,7 @@ $data = json_decode($jsonData, true);
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title><?= htmlspecialchars($data['name']) ?> — CV</title>
   <link href="assets/css/cv.css" rel="stylesheet">
-  <style>
-    .badge { display:inline-block; padding:4px 10px; margin:2px; background:#007bff; color:#fff; border-radius:4px; font-size:0.8em; }
-    .section { margin-bottom:20px; }
-  </style>
+ 
 </head>
 <body>
   <div class="controls">
@@ -35,9 +32,10 @@ $data = json_decode($jsonData, true);
 
       <div class="section">
         <div class="section-title">Contact</div>
+        <div class="divider"></div>
         <div class="contact">
           <?php foreach ($data['contact'] as $key => $value): ?>
-            <div><strong><?= ucfirst($key) ?>:</strong> <?= is_array($value) ? implode(' | ', $value) : $value ?></div>
+            <div><strong><?= ucfirst($key) ?>:</strong> <a href="https://<?= $value ?>" target="_blank"><?= is_array($value) ? implode(' | ', $value) : $value ?></a></div>
           <?php endforeach; ?>
         </div>
       </div>
@@ -46,14 +44,17 @@ $data = json_decode($jsonData, true);
 
       <div class="section">
         <div class="section-title">Core Skills</div>
+        <div class="divider"></div>
         <div class="skill-badges">
           <?php foreach ($data['skills']['core'] as $skill): ?>
             <div class="badge"><?= $skill ?></div>
           <?php endforeach; ?>
         </div>
-
+         </div>
+       <div class="section">
         <div class="divider"></div>
         <div class="section-title">Other Skills</div>
+        <div class="divider"></div>
         <div class="skill-badges">
           <?php foreach ($data['skills']['others'] as $skill): ?>
             <div class="badge"><?= $skill ?></div>
@@ -65,6 +66,7 @@ $data = json_decode($jsonData, true);
 
       <div class="section">
         <div class="section-title">Education</div>
+        <div class="divider"></div>
         <div class="contact">
           <?php foreach ($data['education'] as $edu): ?>
             <div><strong><?= $edu['degree'] ?></strong> — <?= $edu['institution'] ?>
@@ -78,6 +80,7 @@ $data = json_decode($jsonData, true);
 
       <div class="section">
         <div class="section-title">Certifications(Course)</div>
+        <div class="divider"></div>
         <div class="contact">
           <?php foreach ($data['certifications'] as $i => $cert): ?>
             <div><?= ($i+1) ?>. <?= $cert ?></div>
@@ -93,6 +96,7 @@ $data = json_decode($jsonData, true);
     <section class="right">
       <div class="summary">
         <strong>Professional Summary</strong>
+        <div class="divider"></div>
         <p><?= $data['summary'] ?></p>
       </div>
 
@@ -100,6 +104,7 @@ $data = json_decode($jsonData, true);
 
       <div class="experience">
         <div class="section-title">Professional Experience</div>
+        <div class="divider"></div>
         <?php foreach ($data['experience'] as $job): ?>
           <article class="job">
             <h3><?= $job['role'] ?> — <?= $job['company'] ?></h3>
@@ -115,13 +120,14 @@ $data = json_decode($jsonData, true);
 
       <div class="projects">
         <div class="section-title">Selected Projects</div>
+        <div class="divider"></div>
         <?php foreach ($data['projects'] as $proj): ?>
           <div class="project">
             <strong><?= $proj['name'] ?></strong>
-            <div class="muted"><i>Technologies: <?= $proj['technologies'] ?><br>
-            Functionality: <?= $proj['description'] ?></i></div>
+            <div class="muted"><strong>Technologies: </strong><i><?= $proj['technologies'] ?><br>
+            <strong>Functionality: </strong> <?= $proj['description'] ?></i></div>
             <span class="muted"><?= $proj['link'] ?></span>
-            <a href="<?= $proj['link'] ?>" target="_blank">Live</a><br>
+            <a href="<?= $proj['link'] ?>" target="_blank">Live Link</a><br>
             
           </div>
         <?php endforeach; ?>
@@ -130,6 +136,7 @@ $data = json_decode($jsonData, true);
       <div class="divider"></div>
       <div class="section">
   <div class="section-title">Personal Information</div>
+  <div class="divider"></div>
 
   <?php foreach ($data['personal_info'] as $key => $value): ?>
     <?php if ($key !== 'apps'): ?>
@@ -144,6 +151,7 @@ $data = json_decode($jsonData, true);
 
       <div class="section">
         <div class="section-title">Android Apps</div>
+        <div class="divider"></div>
         <div class="contact">
           <?php foreach ($data['apps'] as $app): ?>
             <div><?= $app ?></div>

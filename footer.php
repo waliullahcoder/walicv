@@ -2,10 +2,10 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">wwcoders</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+        Designed by <a href="https://wwcoders.net/">WALI ULLAH</a> Distributed by <a href="https://wwcoders.net">wwcoders</a>
       </div>
     </div>
 

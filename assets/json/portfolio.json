@@ -130,12 +130,13 @@
         "assets/img/portfolio/branding-1.jpg",
         "assets/img/portfolio/books-1.jpg"
       ],
-      "category": "Web Design",
-      "client": "ASU Company",
+      "category": "Software",
+      "client": "Amazing Soft Company",
       "project_date": "01 March, 2020",
-      "project_url": "https://www.example.com",
-      "description_title": "Exercitationem repudiandae officiis neque suscipit",
-      "description": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim."
+      "github_url": "https://github.com/waliullahcoder/hrm-payroll-v3",
+      "project_url": "https://codecanyon.net/item/amazing-hrm-payroll/24605495",
+      "description_title": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)",
+      "description": "Amazing HRM & Payroll software is not just a visualize it’s now become an essential software for maintaining every corporate office. Any company can use it for their regular tasks, employee workforce management and account management."
     },
     {
       "id": 2,
