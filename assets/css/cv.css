@@ -1,0 +1,175 @@
+
+    :root{
+      --accent:#1f6feb;
+      --muted:#6b7280;
+      --bg:#f7fafc;
+      --paper:#ffffff;
+      --radius:10px;
+      --max-width:900px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      background:var(--bg);
+      padding:30px 20px;
+      color:var(--muted);
+      -webkit-font-smoothing:antialiased;
+    }
+
+    .cv-wrap{
+      max-width:var(--max-width);
+      margin:0 auto;
+      background:linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.98));
+      border-radius:var(--radius);
+      box-shadow:0 6px 30px rgba(2,6,23,0.08);
+      overflow:hidden;
+      display:grid;
+      grid-template-columns: 300px 1fr;
+    }
+
+    /* left column */
+.left{
+background:linear-gradient(180deg,#f3f8ff, #ffffff);
+padding:28px 22px;
+}
+.photo{
+width:100%;
+display:flex;align-items:center;justify-content:center;margin-bottom:16px;
+}
+.avatar{
+width:120px;height:120px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6c5ce7);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:34px;box-shadow:0 8px 20px rgba(31,111,235,0.18);
+}
+h1{font-size:20px;margin:6px 0 0;color:#0e64b1;padding-top:120px;padding-left:5px;text-align:center;
+}
+.title{color:##8a929f;font-weight:700;font-size:13px;padding-left:5px;color:var(--muted)}
+
+
+.contact{font-size:13px;color:var(--muted);line-height:1.6}
+.divider{height:1px;background:rgba(15,23,42,0.06);margin:18px 0}
+
+
+.section-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.skill-badges{display:flex;flex-wrap:wrap;gap:8px}
+.badge{background:rgba(31,111,235,0.08);color:var(--accent);padding:6px 8px;border-radius:8px;font-size:12px}
+
+
+.skill-list{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+.skill-item{font-size:13px;color:#111827}
+
+
+.left-footer{margin-top:16px;font-size:12px;color:var(--muted)}
+
+    /* right column */
+.right{padding:28px 32px}
+.summary{font-size:14px;color:#374151;line-height:1.6}
+
+
+.job{margin-bottom:16px}
+.job h3{margin:0;font-size:15px}
+.job .meta{font-size:12px;color:var(--muted);margin-bottom:6px}
+.job p{margin:6px 0;color:#374151;font-size:13px}
+
+
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.chip{padding:6px 10px;border-radius:999px;border:1px solid rgba(15,23,42,0.06);font-size:13px}
+
+
+.project{margin-bottom:12px}
+
+
+footer small{color:var(--muted)}
+
+
+/* print button */
+.controls {
+  position: relative;
+  padding: 12px 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.print-btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none; /* for the HOME link */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+}
+
+.print-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.print-btn:active {
+  transform: translateY(0);
+}
+
+/* Hide both buttons in PDF */
+@media print {
+  .controls {
+    display: none !important;
+  }
+}
+
+.controls{position:relative;padding:12px 20px;background:transparent}
+.print-btn{position:absolute;right:197px;top:-20px;background:var(--accent);color:white;border:none;padding:10px 12px;border-radius:8px;cursor:pointer;font-weight:600}
+
+
+/* Responsive */
+@media (max-width:800px){
+.cv-wrap{grid-template-columns:1fr;}
+.left{order:1}
+.right{order:2}
+}
+
+
+/* ==========================
+PRINT — UPDATED FOR PDF
+========================== */
+@media print{
+body{background:white;padding:0;margin:0}
+.controls{display:none !important}
+
+
+/* Keep the A4 layout clean */
+@page{
+size:A4;
+margin:10mm 10mm 10mm 10mm;
+}
+
+
+.cv-wrap{
+box-shadow:none !important;
+border-radius:0 !important;
+max-width:100% !important;
+width:100% !important;
+grid-template-columns:260px 1fr !important; /* keeps 2-column layout */
+}
+
+
+.left{padding:16px !important}
+.right{padding:16px !important}
+
+
+/* Ensure backgrounds, gradients, colors appear */
+*{-webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; color-adjust:exact !important;}
+
+
+/* Prevent elements from breaking across pages */
+.left, .right, .section, .job, .project{
+page-break-inside: avoid;
+}
+}
+
+
+.muted{color:var(--muted)}
+.inline{display:inline-block}
