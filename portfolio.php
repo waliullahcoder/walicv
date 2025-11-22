@@ -84,6 +84,22 @@ if (!$item) {
             <li><strong>Project date</strong>: <?php echo $item['project_date']; ?></li>
             <li><strong>Github URL</strong>: <a href="<?php echo $item['github_url']; ?>" target="_blank"><?php echo $item['github_url']; ?></a></li>
             <li><strong>Project URL</strong>: <a href="<?php echo $item['project_url']; ?>" target="_blank"><?php echo $item['project_url']; ?></a></li>
+
+            <li>
+  <strong>Admin Access</strong>:
+  <button id="revealBtn" class="btn btn-sm btn-dark">Show Login</button>
+</li>
+
+<!-- Modal -->
+<div id="modal" style="display:none; margin-top:10px;">
+  <input id="reauthPw" type="password" placeholder="Enter secret key" class="form-control mb-2">
+  <button id="confirm" class="btn btn-success btn-sm">Confirm</button>
+  <button id="cancel" class="btn btn-secondary btn-sm">Cancel</button>
+  <div id="msg" style="color:red; margin-top:5px;"></div>
+</div>
+
+<div id="result" style="margin-top:10px;font-weight:bold;"></div>
+
           </ul>
         </div>
 
@@ -96,5 +112,50 @@ if (!$item) {
     </div>
 
   </div>
+<script>
+  const ADMIN_DATA = {
+  login_url: <?= json_encode($item['login_url']) ?>,
+  login_creds: <?= json_encode($item['login_creds']) ?>
+};
+document.getElementById('revealBtn').addEventListener('click', () => {
+  document.getElementById('modal').style.display = 'block';
+  document.getElementById('msg').innerText = '';
+  document.getElementById('reauthPw').value = '';
+});
+
+document.getElementById('confirm').addEventListener('click', () => {
+  const pw = document.getElementById('reauthPw').value.trim();
+
+  // YOUR MANUAL PASSWORD
+  const MASTER_PASSWORD = "wali";
+
+  if (!pw) {
+    document.getElementById('msg').innerText = "Enter password first";
+    return;
+  }
+
+  if (pw === MASTER_PASSWORD) {
+
+    document.getElementById('result').innerHTML = `
+       <div>✅Login URL: <a href="${ADMIN_DATA.login_url}" target="_blank">${ADMIN_DATA.login_url}</a></div>
+       <div>✅Login Creds: ${ADMIN_DATA.login_creds}</div>
+    `;
+
+    document.getElementById('modal').style.display = 'none';
+
+    // Auto hide after 15 seconds
+    setTimeout(() => {
+      document.getElementById('result').innerHTML = '••••••••••';
+    }, 15000);
+
+  } else {
+    document.getElementById('msg').innerText = "Wrong password!";
+  }
+});
+
+document.getElementById('cancel').addEventListener('click', () => {
+  document.getElementById('modal').style.display = 'none';
+});
+</script>
 
 </section><!-- /Portfolio Details Section -->

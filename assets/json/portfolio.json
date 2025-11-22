@@ -135,6 +135,8 @@
     "project_date": "01 March, 2020",
     "github_url": "https://github.com/waliullahcoder/hrm-payroll-v3",
     "project_url": "https://codecanyon.net/item/amazing-hrm-payroll/24605495",
+    "login_url": "https://amazingsoft.live/amazing-hrm-payroll-v3/",
+    "login_creds": "admin@mail.com / demo",
     "description_title": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)",
     "description": "Amazing HRM & Payroll software is not just a visualize it’s now become an essential software for maintaining every corporate office. Any company can use it for their regular tasks, employee workforce management and account management."
   },
@@ -152,6 +154,8 @@
     "project_date": "01 April, 2021",
     "github_url": "https://github.com/waliullahcoder/envato-inventory",
     "project_url": "https://www.codester.com/items/57853/stockpanel-laravel-inventory-management",
+    "login_url": "https://inventory.wwcoders.net",
+    "login_creds": "Admin Login: Email admin@example.com Password: 12345678 | Manager Login: Email- manager@example.com Password- 12345678 | Staff Login: Email- staff@example.com Password- 12345678",
     "description_title": "Inventory Management System (Codester)",
     "description": "StockPanel is a professional Inventory Management System built with Laravel 10, Bootstrap 5.3, PHP 8.1, and MySQL 8. It provides complete stock control, product management, purchasing, sales, and customer management modules in a clean, responsive dashboard."
   },
@@ -168,7 +172,9 @@
     "client": "Amazing Soft Company",
     "project_date": "12 June, 2021",
     "github_url": "https://github.com/waliullahcoder/xaoo-com-live-last-digital-ocean",
-    "project_url": "https://akjon.com/",
+    "project_url": "http://akjon.com/",
+    "login_url": "http://akjon.com/admin",
+    "login_creds": "admin@gmail.com / 123456",
     "description_title": "Akjon.com is all type of software development company",
     "description": "Akjon.com has been a leading software marketplace. We provide IT related solution including web applications, SEO, hosting, and graphic design. We ensure reliability, manageability and security for all clients."
   },
@@ -186,6 +192,8 @@
     "project_date": "20 July, 2021",
     "github_url": "https://github.com/waliullahcoder/akjon2021",
     "project_url": "https://xaoo.com/",
+    "login_url": "https://xaoo.com/login",
+    "login_creds": "xyz@gmail.com / 12345678",
     "description_title": "Xaoo.com is SAAS Accounting Software",
     "description": "Smart Accounting Solution with customizable invoices, expense tracking, inventory, payroll, reports, multi-roles and more—all in one place."
   },
@@ -203,6 +211,8 @@
     "project_date": "01 August, 2021",
     "github_url": "https://github.com/waliullahcoder/accounting-pos-react-laravel/tree/master/node-backend",
     "project_url": "https://react.wwcoders.net/login",
+    "login_url": "https://react.wwcoders.net/login",
+    "login_creds": "admin@example.com / password",
     "description_title": "Accounting Software (Node and React)",
     "description": "A complete accounting solution with product, category, warehouse management, inventory tracking, invoices, pdf generation, dynamic dashboard, RBAC, responsive UI and clean admin panel."
   },
@@ -221,6 +231,8 @@
     "project_date": "01 Jan, 2022",
     "github_url": "https://github.com/waliullahcoder/onixbd",
     "project_url": "https://www.onixbd.com/",
+    "login_url": "https://www.onixbd.com/admin",
+    "login_creds": "admin@gmail.com / password",
     "description_title": "e-Commerce Site and Admin Panel",
     "description": "A secure and scalable e-commerce platform with product catalog, checkout system, multiple payment gateways, admin product controls, coupons, reports, analytics and complete inventory features."
   },
@@ -238,6 +250,8 @@
     "project_date": "04 August, 2021",
     "github_url": "https://github.com/waliullahcoder/spring-boot-3.5.4-java-21-maven-3.9.1",
     "project_url": "https://react.wwcoders.net/login",
+    "login_url": "https://react.wwcoders.net/login",
+    "login_creds": "admin@example.com / password",
     "description_title": "Accounting Software (Spring Boot and React)",
     "description": "A complete accounting system including product, category, warehouse, purchase, sales, invoice PDFs, dashboard analytics, RBAC, dynamic themes, and a modern responsive design."
   },
@@ -255,6 +269,8 @@
     "project_date": "10 Feb, 2022",
     "github_url": "https://github.com/waliullahcoder/hotel-booking",
     "project_url": "https://akjon.com/product-detail/Hotel-Booking-System",
+    "login_url": "https://akjon.com/product-detail/Hotel-Booking-System",
+"login_creds": "admin@gmail.com / 123456",
     "description_title": "Hotel Management System",
     "description": "A complete hotel management system with room booking, check-in/out, payments, housekeeping, pricing, staff, guest management, reports, notifications and real-time availability dashboard."
   },
@@ -272,6 +288,8 @@
     "project_date": "14 August, 2021",
     "github_url": "https://github.com/waliullahcoder/accounting-pos-react-laravel",
     "project_url": "https://react.wwcoders.net/login",
+    "login_url": "https://react.wwcoders.net/login",
+    "login_creds": "admin@example.com / password",
     "description_title": "Accounting Software (Laravel)",
     "description": "A clean MVC structured Laravel accounting software with product, category, warehouse, inventory, customer, supplier, sales, purchase, invoice, PDF, analytics, RBAC and modern responsive admin UI."
   },
@@ -289,6 +307,8 @@
     "project_date": "12 March, 2022",
     "github_url": "#",
     "project_url": "https://akjon.com/schools/assl01/",
+    "login_url": "https://akjon.com/schools/assl01/login",
+"login_creds": "admin@gmail.com / 123456",
     "description_title": "School Management System",
     "description": "A full-featured school management platform with student admission, attendance, exams, grading, fees, teachers, parents portal, academic management, reporting and communication tools."
   },
@@ -306,6 +326,8 @@
     "project_date": "14 March, 2022",
     "github_url": "#",
     "project_url": "https://akjon.com/product-detail/Amazing-News-Paper-ASNL01",
+    "login_url": "https://akjon.com/newspaper/asnl01/login",
+   "login_creds": "admin@gmail.com / 123456",
     "description_title": "Newspaper Management System",
     "description": "A digital newspaper CMS with article creation, editing, publishing, SEO pages, scheduling, categories, ads management, comments, analytics and advanced editorial workflow."
   },
@@ -323,6 +345,8 @@
     "project_date": "20 March, 2022",
     "github_url": "https://github.com/waliullahcoder/chat-ai-integration",
     "project_url": "https://aichat.wwcoders.net/",
+    "login_url": "https://aichat.wwcoders.net/",
+ "login_creds": "admin@gmail.com / 123456",
     "description_title": "AI Chat Integration System",
     "description": "An intelligent AI chat integration providing automated support, real-time replies, chat history, custom model training, CRM connectivity, insights tracking and enhanced interactive communication."
   }
