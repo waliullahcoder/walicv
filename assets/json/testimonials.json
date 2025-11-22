@@ -1,0 +1,33 @@
+[
+  {
+    "quote": "Wali's leadership transformed our company. His strategies boosted productivity and created an inspiring workplace culture for all employees.",
+    "image": "assets/img/testimonials/testimonials-1.jpg",
+    "name": "Saul Goodman",
+    "position": "Ceo & Founder"
+  },
+  {
+    "quote": "Wali's designs are creative and user-friendly. Her attention to detail and innovative approach made our product visually appealing and intuitive.",
+    "image": "assets/img/testimonials/testimonials-2.jpg",
+    "name": "Sara Wilsson",
+    "position": "Designer"
+  },
+  {
+    "quote": "Wali consistently delivers top-quality service. Her problem-solving skills and dedication ensure smooth operations and satisfied customers every time.",
+    "image": "assets/img/testimonials/testimonials-3.jpg",
+    "name": "Jena Karlis",
+    "position": "Store Owner"
+  },
+  {
+    "quote": "Wali’s freelance contributions are outstanding. Reliable, creative, and efficient, he elevates any project with professionalism and skill.",
+    "image": "assets/img/testimonials/testimonials-4.jpg",
+    "name": "Matt Brandon",
+    "position": "Freelancer"
+  },
+  {
+    "quote": "Wali brings visionary ideas and excellent execution. His entrepreneurial insight helps businesses grow and achieve success in competitive markets.",
+    "image": "assets/img/testimonials/testimonials-5.jpg",
+    "name": "John Larson",
+    "position": "Entrepreneur"
+  }
+]
+

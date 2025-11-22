@@ -6,7 +6,7 @@
 <body class="index-page">
 
     <!-- Menubar -->
-    <?php include __DIR__ . '/menubar.php'; ?>
+    <?php include __DIR__ . '/menubar2.php'; ?>
 
     <!-- Main Content -->
     <main class="main">

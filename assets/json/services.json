@@ -1,82 +1,119 @@
 {
   "services": [
-    {
-      "id": 1,
-      "title": "Web Design",
-      "short_description": "Professional website UI/UX and responsive design.",
-      "image": "assets/img/services/services.jpg",
-      "description_title": "Creative Web Design Services",
-      "description": "We provide modern responsive web design using HTML, CSS, JS and frameworks like Bootstrap and Tailwind.",
-      "points": [
-        "Responsive and SEO-friendly design",
-        "Fast loading speed optimization",
-        "Modern UI/UX creativity"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Software Development",
-      "short_description": "Custom software for business solutions.",
-      "image": "assets/img/services/services.jpg",
-      "description_title": "Custom Software Solutions",
-      "description": "We build scalable software using Laravel, Node.js, Java Spring Boot, and React.",
-      "points": [
-        "Secure and scalable backend",
-        "Clean architecture",
-        "API development"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Product Management",
-      "short_description": "Product planning and development strategy.",
-      "image": "assets/img/services/services.jpg",
-      "description_title": "Product Strategy Consulting",
-      "description": "We help businesses build products from idea to launch.",
-      "points": [
-        "Research-based planning",
-        "Market analysis",
-        "Product roadmap design"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Product Management4",
-      "short_description": "Product planning and development strategy.",
-      "image": "assets/img/services/services.jpg",
-      "description_title": "Product Strategy Consulting",
-      "description": "We help businesses build products from idea to launch.",
-      "points": [
-        "Research-based planning",
-        "Market analysis",
-        "Product roadmap design"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Product Management5",
-      "short_description": "Product planning and development strategy.",
-      "image": "assets/img/services/services.jpg",
-      "description_title": "Product Strategy Consulting",
-      "description": "We help businesses build products from idea to launch.",
-      "points": [
-        "Research-based planning",
-        "Market analysis",
-        "Product roadmap design"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Product Management6",
-      "short_description": "Product planning and development strategy.",
-      "image": "assets/img/services/services.jpg",
-      "description_title": "Product Strategy Consulting",
-      "description": "We help businesses build products from idea to launch.",
-      "points": [
-        "Research-based planning",
-        "Market analysis",
-        "Product roadmap design"
-      ]
-    }
-  ]
+  {
+    "id": 1,
+    "icon": "bi bi-layers",
+    "title": "Laravel Web Application Development",
+    "short_description": "Custom Laravel web apps, backend systems, and REST APIs.",
+    "image": "assets/img/services/laravel.png",
+    "description_title": "Laravel Application & API Development",
+    "description": "I develop scalable, secure, and high-performance Laravel applications with clean architecture, API development, and advanced module integrations.",
+    "points": [
+      "Custom Laravel 10+ web application development",
+      "RESTful API development with Sanctum/Passport",
+      "E-commerce, Inventory, POS, CRM, Accounting systems",
+      "Repository & Service Layer architecture",
+      "Database design, migration & optimization",
+      "Payment gateways (Stripe, PayPal, SSLCommerz)",
+      "Admin panel UI with Blade, Bootstrap, Vue/React"
+    ]
+  },
+
+  {
+    "id": 2,
+    "icon": "bi bi-lightning-charge",
+    "title": "React Frontend Development",
+    "short_description": "Modern, responsive React UI & dynamic dashboards.",
+    "image": "assets/img/services/react.jpg",
+    "description_title": "React.js Frontend Development",
+    "description": "Building fast, modern, component-based user interfaces with React 18+, Vite, Tailwind, MUI, and Redux Toolkit.",
+    "points": [
+      "Responsive UI development using React 18+",
+      "Redux / Redux Toolkit state management",
+      "Dynamic dashboards, invoice builders, charts",
+      "REST API integration with Axios & Fetch",
+      "Tailwind, Material UI, Bootstrap integration",
+      "Vite-based project optimization",
+      "React Router v6+ SPA development"
+    ]
+  },
+
+  {
+    "id": 3,
+    "icon": "bi bi-hdd-network",
+    "title": "Node.js Backend & API Development",
+    "short_description": "Express/Nest.js API development with authentication & real-time features.",
+    "image": "assets/img/services/node.png",
+    "description_title": "Node.js Application & API Development",
+    "description": " building secure and scalable backend systems using Node.js, Express.js, Nest.js, Socket.io, and database optimizations.",
+    "points": [
+      "RESTful API development (Express.js / Nest.js)",
+      "JWT authentication & permission systems",
+      "Real-time apps with Socket.io",
+      "Payment gateway & 3rd-party API integration",
+      "MySQL, PostgreSQL, MongoDB optimization",
+      "Microservices-ready architecture",
+      "Error handling, logging & queue jobs",
+      "Deployment with PM2 / Docker"
+    ]
+  },
+
+  {
+    "id": 4,
+    "icon": "bi bi-cpu",
+    "title": "Java Spring Boot Application Development",
+    "short_description": "Enterprise-grade backend systems using Spring Boot & microservices.",
+    "image": "assets/img/services/java.gif",
+    "description_title": "Enterprise Java & Spring Boot Development",
+    "description": "Building enterprise backend services using Spring Boot, JPA/Hibernate, Spring Security, microservices architecture, and API documentation.",
+    "points": [
+      "REST APIs with Spring Boot",
+      "Spring Security (JWT/Auth)",
+      "Database management with JPA/Hibernate",
+      "Multi-module microservice architecture",
+      "Swagger/OpenAPI documentation",
+      "Payment, SMS, email integrations",
+      "Repository & Service layer architecture",
+      "High-performance scalable design"
+    ]
+  },
+
+  {
+    "id": 5,
+    "icon": "bi bi-database",
+    "title": "Database Design & Optimization",
+    "short_description": "Efficient database architecture, indexing & performance tuning.",
+    "image": "assets/img/services/db.jpg",
+    "description_title": "Database Architecture & Optimization",
+    "description": "Designing high-performance databases including schema modeling, indexing, backups, and optimization for MySQL, PostgreSQL, and MongoDB.",
+    "points": [
+      "MySQL, PostgreSQL, MongoDB schema design",
+      "Query optimization & indexing",
+      "Database backup strategy & recovery",
+      "Migration & version control",
+      "Performance tuning & normalization"
+    ]
+  },
+
+  {
+    "id": 6,
+    "icon": "bi bi-cloud-upload",
+    "title": "Full-Stack Development & Deployment",
+    "short_description": "Frontend, backend, DevOps, CI/CD & production deployment.",
+    "image": "assets/img/services/deployement.png",
+    "description_title": "Full-Stack Development & Deployment Solutions",
+    "description": "Complete full-stack development with React, Laravel, Node.js, Java along with AWS deployment, Docker, CI/CD, and server optimization.",
+    "points": [
+      "End-to-end full-stack application development",
+      "Admin panel + API + frontend integration",
+      "AWS EC2, S3, RDS, Elastic Beanstalk deployment",
+      "Docker containerization & GitHub Actions CI/CD",
+      "Nginx/Apache server configuration",
+      "Bug fixing & performance improvement",
+      "Code refactoring & version upgrade",
+      "Ongoing support & maintenance"
+    ]
+  }
+]
+
 }

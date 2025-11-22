@@ -10,178 +10,322 @@
   "items": [
     {
       "id": 1,
-      "title": "App 1",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Software",
+      "short_description": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)",
       "category_class": "filter-app",
-      "image": "assets/img/portfolio/app-1.jpg",
+      "image": "assets/img/portfolio/hrm/1.jpg",
       "gallery": "portfolio-gallery-app",
       "details_id": 1
     },
     {
       "id": 2,
-      "title": "Product 1",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Software",
+      "short_description": "Inventory Management System (Codester)",
       "category_class": "filter-product",
-      "image": "assets/img/portfolio/product-1.jpg",
+      "image": "assets/img/portfolio/inventory/1.jpg",
       "gallery": "portfolio-gallery-product",
       "details_id": 2
     },
     {
       "id": 3,
-      "title": "Branding 1",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "software Marketplace",
+      "short_description": "Akjon.com is all type of software development company",
       "category_class": "filter-branding",
-      "image": "assets/img/portfolio/branding-1.jpg",
+      "image": "assets/img/portfolio/akjon/1.jpg",
       "gallery": "portfolio-gallery-branding",
       "details_id": 3
     },
     {
       "id": 4,
-      "title": "Books 1",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "SAAS Accounting ",
+      "short_description": "Xaoo.com is SAAS Accounting Software",
       "category_class": "filter-books",
-      "image": "assets/img/portfolio/books-1.jpg",
+      "image": "assets/img/portfolio/xaoo/1.jpg",
       "gallery": "portfolio-gallery-book",
       "details_id": 4
     },
 
     {
       "id": 5,
-      "title": "App 2",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Software",
+      "short_description": "Accounting Software (Node and React)",
       "category_class": "filter-app",
-      "image": "assets/img/portfolio/app-2.jpg",
+      "image": "assets/img/portfolio/accounting/1.jpg",
       "gallery": "portfolio-gallery-app",
       "details_id": 5
     },
     {
       "id": 6,
-      "title": "Product 2",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "e-Commerce",
+      "short_description": "e-Commerce Site and Admin Panel",
       "category_class": "filter-product",
-      "image": "assets/img/portfolio/product-2.jpg",
+      "image": "assets/img/portfolio/ecommerce/1.jpg",
       "gallery": "portfolio-gallery-product",
       "details_id": 6
     },
     {
       "id": 7,
-      "title": "Branding 2",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Software",
+      "short_description": "Accounting Software (Spring Boot and React)",
       "category_class": "filter-branding",
-      "image": "assets/img/portfolio/branding-2.jpg",
+      "image": "assets/img/portfolio/accounting/3.jpg",
       "gallery": "portfolio-gallery-branding",
       "details_id": 7
     },
     {
       "id": 8,
-      "title": "Books 2",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Software",
+      "short_description": "Hotel Management System",
       "category_class": "filter-books",
-      "image": "assets/img/portfolio/books-2.jpg",
+      "image": "assets/img/portfolio/hotel/1.jpg",
       "gallery": "portfolio-gallery-book",
       "details_id": 8
     },
 
     {
       "id": 9,
-      "title": "App 3",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Software",
+      "short_description": "Accounting Software (Laravel)",
       "category_class": "filter-app",
-      "image": "assets/img/portfolio/app-3.jpg",
+      "image": "assets/img/portfolio/accounting/2.jpg",
       "gallery": "portfolio-gallery-app",
       "details_id": 9
     },
     {
       "id": 10,
-      "title": "Product 3",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "School Management",
+      "short_description": "School Management System",
       "category_class": "filter-product",
-      "image": "assets/img/portfolio/product-3.jpg",
+      "image": "assets/img/portfolio/school/1.jpg",
       "gallery": "portfolio-gallery-product",
       "details_id": 10
     },
     {
       "id": 11,
-      "title": "Branding 3",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "Newspaper",
+      "short_description": "Newspaper Management System",
       "category_class": "filter-branding",
-      "image": "assets/img/portfolio/branding-3.jpg",
+      "image": "assets/img/portfolio/newspapper/1.jpg",
       "gallery": "portfolio-gallery-branding",
       "details_id": 11
     },
     {
       "id": 12,
-      "title": "Books 3",
-      "short_description": "Lorem ipsum, dolor sit amet consectetur",
+      "title": "AI Integration",
+      "short_description": "AI Chat Integration System",
       "category_class": "filter-books",
-      "image": "assets/img/portfolio/books-3.jpg",
+      "image": "assets/img/portfolio/aichat/1.jpg",
       "gallery": "portfolio-gallery-book",
       "details_id": 12
     }
   ],
 
   "details": [
-    {
-      "id": 1,
-      "title": "Modern Web Application",
-      "images": [
-        "assets/img/portfolio/app-1.jpg",
-        "assets/img/portfolio/product-1.jpg",
-        "assets/img/portfolio/branding-1.jpg",
-        "assets/img/portfolio/books-1.jpg"
-      ],
-      "category": "Software",
-      "client": "Amazing Soft Company",
-      "project_date": "01 March, 2020",
-      "github_url": "https://github.com/waliullahcoder/hrm-payroll-v3",
-      "project_url": "https://codecanyon.net/item/amazing-hrm-payroll/24605495",
-      "description_title": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)",
-      "description": "Amazing HRM & Payroll software is not just a visualize it’s now become an essential software for maintaining every corporate office. Any company can use it for their regular tasks, employee workforce management and account management."
-    },
-    {
-      "id": 2,
-      "title": "E-Commerce Platform",
-      "images": [
-        "assets/img/portfolio/product-2.jpg",
-        "assets/img/portfolio/product-3.jpg",
-        "assets/img/portfolio/app-3.jpg"
-      ],
-      "category": "E-Commerce",
-      "client": "Digital Store",
-      "project_date": "10 June, 2022",
-      "project_url": "https://store.example.com",
-      "description_title": "Full E-commerce Website",
-      "description": "A powerful e-commerce system built with Laravel, React, and MySQL. Includes admin panel, order management, and payment integration."
-    },
-    {
-      "id": 3,
-      "title": "Mobile App UI/UX",
-      "images": [
-        "assets/img/portfolio/app-2.jpg",
-        "assets/img/portfolio/app-4.jpg"
-      ],
-      "category": "UI/UX Design",
-      "client": "AppTech",
-      "project_date": "20 August, 2021",
-      "project_url": "https://apptech.com",
-      "description_title": "Beautiful Mobile App UI",
-      "description": "Creative UI/UX design for a modern mobile application, focused on user experience, clean interface, and smooth interactions."
-    },
-    {
-      "id": 4,
-      "title": "Mobile App UI/UX WWW",
-      "images": [
-        "assets/img/portfolio/product-3.jpg",
-        "assets/img/portfolio/product-3.jpg",
-        "assets/img/portfolio/app-2.jpg",
-        "assets/img/portfolio/product-3.jpg"
-      ],
-      "category": "UI/UX Design WW",
-      "client": "AppTech",
-      "project_date": "20 August, 2021",
-      "project_url": "https://apptech.com",
-      "description_title": "Beautiful Mobile App UI WW2",
-      "description": "Creative UI/UX design for a modern mobile application, focused on user experience, clean interface, and smooth interactions."
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/hrm/1.jpg",
+      "assets/img/portfolio/hrm/2.jpg",
+      "assets/img/portfolio/hrm/3.jpg",
+      "assets/img/portfolio/hrm/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "01 March, 2020",
+    "github_url": "https://github.com/waliullahcoder/hrm-payroll-v3",
+    "project_url": "https://codecanyon.net/item/amazing-hrm-payroll/24605495",
+    "description_title": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)",
+    "description": "Amazing HRM & Payroll software is not just a visualize it’s now become an essential software for maintaining every corporate office. Any company can use it for their regular tasks, employee workforce management and account management."
+  },
+  {
+    "id": 2,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/inventory/1.jpg",
+      "assets/img/portfolio/inventory/2.jpg",
+      "assets/img/portfolio/inventory/3.jpg",
+      "assets/img/portfolio/inventory/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "01 April, 2021",
+    "github_url": "https://github.com/waliullahcoder/envato-inventory",
+    "project_url": "https://www.codester.com/items/57853/stockpanel-laravel-inventory-management",
+    "description_title": "Inventory Management System (Codester)",
+    "description": "StockPanel is a professional Inventory Management System built with Laravel 10, Bootstrap 5.3, PHP 8.1, and MySQL 8. It provides complete stock control, product management, purchasing, sales, and customer management modules in a clean, responsive dashboard."
+  },
+  {
+    "id": 3,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/akjon/1.jpg",
+      "assets/img/portfolio/akjon/2.jpg",
+      "assets/img/portfolio/akjon/3.jpg",
+      "assets/img/portfolio/akjon/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "12 June, 2021",
+    "github_url": "https://github.com/waliullahcoder/xaoo-com-live-last-digital-ocean",
+    "project_url": "https://akjon.com/",
+    "description_title": "Akjon.com is all type of software development company",
+    "description": "Akjon.com has been a leading software marketplace. We provide IT related solution including web applications, SEO, hosting, and graphic design. We ensure reliability, manageability and security for all clients."
+  },
+  {
+    "id": 4,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/xaoo/1.jpg",
+      "assets/img/portfolio/xaoo/2.jpg",
+      "assets/img/portfolio/xaoo/3.jpg",
+      "assets/img/portfolio/xaoo/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "20 July, 2021",
+    "github_url": "https://github.com/waliullahcoder/akjon2021",
+    "project_url": "https://xaoo.com/",
+    "description_title": "Xaoo.com is SAAS Accounting Software",
+    "description": "Smart Accounting Solution with customizable invoices, expense tracking, inventory, payroll, reports, multi-roles and more—all in one place."
+  },
+  {
+    "id": 5,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/accounting/1.jpg",
+      "assets/img/portfolio/accounting/2.jpg",
+      "assets/img/portfolio/accounting/3.jpg",
+      "assets/img/portfolio/accounting/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "01 August, 2021",
+    "github_url": "https://github.com/waliullahcoder/accounting-pos-react-laravel/tree/master/node-backend",
+    "project_url": "https://react.wwcoders.net/login",
+    "description_title": "Accounting Software (Node and React)",
+    "description": "A complete accounting solution with product, category, warehouse management, inventory tracking, invoices, pdf generation, dynamic dashboard, RBAC, responsive UI and clean admin panel."
+  },
+  
+  {
+    "id": 6,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/ecommerce/1.jpg",
+      "assets/img/portfolio/ecommerce/2.jpg",
+      "assets/img/portfolio/ecommerce/3.jpg",
+      "assets/img/portfolio/ecommerce/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "01 Jan, 2022",
+    "github_url": "https://github.com/waliullahcoder/onixbd",
+    "project_url": "https://www.onixbd.com/",
+    "description_title": "e-Commerce Site and Admin Panel",
+    "description": "A secure and scalable e-commerce platform with product catalog, checkout system, multiple payment gateways, admin product controls, coupons, reports, analytics and complete inventory features."
+  },
+  {
+    "id": 7,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/accounting/3.jpg",
+      "assets/img/portfolio/accounting/1.jpg",
+      "assets/img/portfolio/accounting/2.jpg",
+      "assets/img/portfolio/accounting/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "04 August, 2021",
+    "github_url": "https://github.com/waliullahcoder/spring-boot-3.5.4-java-21-maven-3.9.1",
+    "project_url": "https://react.wwcoders.net/login",
+    "description_title": "Accounting Software (Spring Boot and React)",
+    "description": "A complete accounting system including product, category, warehouse, purchase, sales, invoice PDFs, dashboard analytics, RBAC, dynamic themes, and a modern responsive design."
+  },
+  {
+    "id": 8,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/hotel/1.jpg",
+      "assets/img/portfolio/hotel/1.jpg",
+      "assets/img/portfolio/hotel/1.jpg",
+      "assets/img/portfolio/hotel/1.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "10 Feb, 2022",
+    "github_url": "https://github.com/waliullahcoder/hotel-booking",
+    "project_url": "https://akjon.com/product-detail/Hotel-Booking-System",
+    "description_title": "Hotel Management System",
+    "description": "A complete hotel management system with room booking, check-in/out, payments, housekeeping, pricing, staff, guest management, reports, notifications and real-time availability dashboard."
+  },
+  {
+    "id": 9,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/accounting/2.jpg",
+      "assets/img/portfolio/accounting/1.jpg",
+      "assets/img/portfolio/accounting/3.jpg",
+      "assets/img/portfolio/accounting/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "14 August, 2021",
+    "github_url": "https://github.com/waliullahcoder/accounting-pos-react-laravel",
+    "project_url": "https://react.wwcoders.net/login",
+    "description_title": "Accounting Software (Laravel)",
+    "description": "A clean MVC structured Laravel accounting software with product, category, warehouse, inventory, customer, supplier, sales, purchase, invoice, PDF, analytics, RBAC and modern responsive admin UI."
+  },
+  {
+    "id": 10,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/school/1.jpg",
+      "assets/img/portfolio/school/2.jpg",
+      "assets/img/portfolio/school/3.jpg",
+      "assets/img/portfolio/school/4.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "12 March, 2022",
+    "github_url": "#",
+    "project_url": "https://akjon.com/schools/assl01/",
+    "description_title": "School Management System",
+    "description": "A full-featured school management platform with student admission, attendance, exams, grading, fees, teachers, parents portal, academic management, reporting and communication tools."
+  },
+  {
+    "id": 11,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/newspapper/1.jpg",
+      "assets/img/portfolio/newspapper/1.jpg",
+      "assets/img/portfolio/newspapper/1.jpg",
+      "assets/img/portfolio/newspapper/1.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "14 March, 2022",
+    "github_url": "#",
+    "project_url": "https://akjon.com/product-detail/Amazing-News-Paper-ASNL01",
+    "description_title": "Newspaper Management System",
+    "description": "A digital newspaper CMS with article creation, editing, publishing, SEO pages, scheduling, categories, ads management, comments, analytics and advanced editorial workflow."
+  },
+  {
+    "id": 12,
+    "title": "Software",
+    "images": [
+      "assets/img/portfolio/aichat/1.jpg",
+      "assets/img/portfolio/aichat/1.jpg",
+      "assets/img/portfolio/aichat/1.jpg",
+      "assets/img/portfolio/aichat/1.jpg"
+    ],
+    "category": "Software",
+    "client": "Amazing Soft Company",
+    "project_date": "20 March, 2022",
+    "github_url": "https://github.com/waliullahcoder/chat-ai-integration",
+    "project_url": "https://aichat.wwcoders.net/",
+    "description_title": "AI Chat Integration System",
+    "description": "An intelligent AI chat integration providing automated support, real-time replies, chat history, custom model training, CRM connectivity, insights tracking and enhanced interactive communication."
+  }
+]
+
 }

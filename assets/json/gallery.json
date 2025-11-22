@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Software",
+      "short_description": "HRM & Payroll System Management with ZCOTECHO (Codecanyon)",
+      "category_class": "filter-app",
+      "image": "assets/img/gallery/1.jpg",
+      "gallery": "portfolio-gallery-app",
+      "details_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Software",
+      "short_description": "Inventory Management System (Codester)",
+      "category_class": "filter-product",
+      "image": "assets/img/gallery/2.jpg",
+      "gallery": "portfolio-gallery-product",
+      "details_id": 2
+    },
+    {
+      "id": 3,
+      "title": "software Marketplace",
+      "short_description": "Akjon.com is all type of software development company",
+      "category_class": "filter-branding",
+      "image": "assets/img/gallery/3.jpg",
+      "gallery": "portfolio-gallery-branding",
+      "details_id": 3
+    },
+    {
+      "id": 4,
+      "title": "SAAS Accounting ",
+      "short_description": "Xaoo.com is SAAS Accounting Software",
+      "category_class": "filter-books",
+      "image": "assets/img/gallery/4.jpg",
+      "gallery": "portfolio-gallery-book",
+      "details_id": 4
+    },
+
+    {
+      "id": 5,
+      "title": "Software",
+      "short_description": "Accounting Software (Node and React)",
+      "category_class": "filter-app",
+      "image": "assets/img/gallery/5.jpg",
+      "gallery": "portfolio-gallery-app",
+      "details_id": 5
+    },
+    {
+      "id": 6,
+      "title": "e-Commerce",
+      "short_description": "e-Commerce Site and Admin Panel",
+      "category_class": "filter-product",
+      "image": "assets/img/gallery/6.jpg",
+      "gallery": "portfolio-gallery-product",
+      "details_id": 6
+    },
+    {
+      "id": 7,
+      "title": "Software",
+      "short_description": "Accounting Software (Spring Boot and React)",
+      "category_class": "filter-branding",
+      "image": "assets/img/gallery/7.jpg",
+      "gallery": "portfolio-gallery-branding",
+      "details_id": 7
+    },
+    {
+      "id": 8,
+      "title": "Software",
+      "short_description": "Hotel Management System",
+      "category_class": "filter-books",
+      "image": "assets/img/gallery/8.jpg",
+      "gallery": "portfolio-gallery-book",
+      "details_id": 8
+    },
+
+    {
+      "id": 9,
+      "title": "Software",
+      "short_description": "Accounting Software (Laravel)",
+      "category_class": "filter-app",
+      "image": "assets/img/gallery/9.jpg",
+      "gallery": "portfolio-gallery-app",
+      "details_id": 9
+    },
+    {
+      "id": 10,
+      "title": "School Management",
+      "short_description": "School Management System",
+      "category_class": "filter-product",
+      "image": "assets/img/gallery/10.jpg",
+      "gallery": "portfolio-gallery-product",
+      "details_id": 10
+    },
+    {
+      "id": 11,
+      "title": "Newspaper",
+      "short_description": "Newspaper Management System",
+      "category_class": "filter-branding",
+      "image": "assets/img/gallery/11.jpg",
+      "gallery": "portfolio-gallery-branding",
+      "details_id": 11
+    },
+    {
+      "id": 12,
+      "title": "AI Integration",
+      "short_description": "AI Chat Integration System",
+      "category_class": "filter-books",
+      "image": "assets/img/gallery/12.jpg",
+      "gallery": "portfolio-gallery-book",
+      "details_id": 12
+    }
+  ]
+
+}
