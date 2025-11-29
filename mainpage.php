@@ -219,17 +219,33 @@
     <?php endforeach; ?>
 
 </div>
- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
     <h3 class="resume-title">Education</h3>
     <?php foreach ($data['education'] as $edu): ?>
         <div class="resume-item">
             <h4><?= $edu['degree']; ?></h4>
             <h5><?= $edu['result']; ?></h5>
+            <h4><?= $edu['year']; ?></h4>
             <p><em><?= $edu['institution']; ?></em></p>
+        </div>
+    <?php endforeach; ?>
+<?php
+// Load JSON data
+$jsonData = file_get_contents("assets/json/cv.json");
+$data = json_decode($jsonData, true);
+?>
+    <h3 class="resume-title">Languages(Communication)</h3>
+   <?php foreach ($data['languages'] as $lang): ?>
+        <div class="resume-item">
+            <h4><?= $lang['language']; ?></h4>
+            <h5>Written: <?= $lang['written']; ?><br>Spoken: <?= $lang['spoken']; ?></h5>
         </div>
     <?php endforeach; ?>
 
 </div>
+
+
+
         </div>
 
       </div>

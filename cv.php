@@ -2,6 +2,10 @@
 // Load JSON data
 $jsonData = file_get_contents("assets/json/cv.json");
 $data = json_decode($jsonData, true);
+
+$data2 = json_decode(file_get_contents("assets/json/portfolio.json"), true);
+$details = $data2['details'] ?? [];
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -71,6 +75,20 @@ $data = json_decode($jsonData, true);
           <?php foreach ($data['education'] as $edu): ?>
             <div><strong><?= $edu['degree'] ?></strong> — <?= $edu['institution'] ?>
               <div class="muted">Result: <?= $edu['result'] ?></div>
+              Passing Year: <?= $edu['year'] ?>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <div class="section-title">Languages(Communication)</div>
+        <div class="divider"></div>
+        <div class="contact">
+          <?php foreach ($data['languages'] as $lang): ?>
+            <div><strong><?= $lang['language'] ?></strong> <div class="muted">Written: <?= $lang['written'] ?>, Spoken: <?= $lang['spoken'] ?></div>
             </div>
           <?php endforeach; ?>
         </div>
@@ -121,13 +139,14 @@ $data = json_decode($jsonData, true);
       <div class="projects">
         <div class="section-title">Selected Projects</div>
         <div class="divider"></div>
-        <?php foreach ($data['projects'] as $proj): ?>
+        <?php foreach ($details as $proj): ?>
           <div class="project">
-            <strong><?= $proj['name'] ?></strong>
-            <div class="muted"><strong>Technologies: </strong><i><?= $proj['technologies'] ?><br>
-            <strong>Functionality: </strong> <?= $proj['description'] ?></i></div>
-            <span class="muted"><?= $proj['link'] ?></span>
-            <a href="<?= $proj['link'] ?>" target="_blank">Live Link</a><br>
+            <strong><?= $proj['description_title'] ?></strong><br>
+            <strong>Project Date: </strong> <?= $proj['project_date'] ?><br>
+            <strong>Git URL: </strong> <a href="<?= $proj['github_url'] ?>" target="_blank"><?= $proj['github_url'] ?></a><br>
+            <strong>Live URL: </strong> <a href="<?= $proj['project_url'] ?>" target="_blank"><?= $proj['project_url'] ?></a><br>
+            <div class="muted"><strong>Technologies: </strong><?= $proj['tools'] ?><br>
+            <strong>Functionality: </strong> <?= $proj['description'] ?></div>
             
           </div>
         <?php endforeach; ?>
