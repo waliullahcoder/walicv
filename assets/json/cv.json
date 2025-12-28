@@ -63,6 +63,25 @@
     "blood_group": "B+",
     "nid": "19933519176000215"
   },
+  "references": [
+    {
+    "name": "Dr. Momotaz Begum, PhD",
+    "designation": "Head, Department of Computer Science and Engineering, DUET, Gazipur",
+    "internal_phone": "49274011",
+    "ip_landline": "3200",
+    "ip_direct_dial": "09666-327702",
+    "email": "head_hss@duet.ac.bd"
+  },
+  {
+    "name": "Dr. Mohammod Abul Kashem, PhD",
+    "designation": "Professor, Department of Computer Science and Engineering, DUET, Gazipur",
+    "internal_phone": "49274011",
+    "ip_landline": "3207",
+    "ip_direct_dial": "+8801727875380",
+    "email": "drkashemll@duet.ac.bd"
+  }
+
+],
   "last_updated": "Nov 16, 2025",
   "footer": "References available on request · Last updated: Nov 16, 2025"
 }
