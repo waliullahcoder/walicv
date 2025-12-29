@@ -136,9 +136,10 @@ $details = $data2['details'] ?? [];
     </aside>
 
     <section class="right">
-      <div class="summary">
-        <strong>Professional Summary</strong>
+      <div class="divider"></div>
+        <div class="section-title">Professional Summary (10+ years Experience)</div>
         <div class="divider"></div>
+      <div class="summary">
         <p><?= $data['summary'] ?></p>
       </div>
 
@@ -149,7 +150,7 @@ $details = $data2['details'] ?? [];
         <div class="divider"></div>
         <?php foreach ($data['experience'] as $job): ?>
           <article class="job">
-            <h3><?= $job['role'] ?> — <?= $job['company'] ?></h3>
+            <strong><?= $job['role'] ?> — <?= $job['company'] ?></strong>
             <div class="meta"><?= $job['duration'] ?> · <?= $job['location'] ?></div>
             <?php if (!empty($job['details'])): ?>
               <p><?= $job['details'] ?></p>

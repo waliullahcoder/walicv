@@ -15,6 +15,7 @@
       padding:30px 20px;
       color:var(--muted);
       -webkit-font-smoothing:antialiased;
+      font-size: 13px;
     }
 
     .cv-wrap{
@@ -46,10 +47,10 @@ h1{font-size:20px;margin:6px 0 0;color:#0e64b1;padding-top:120px;padding-left:5p
 
 
 .contact{font-size:13px;color:var(--muted);line-height:1.6}
-.divider{height:1px;background:rgba(15,23,42,0.06);margin:18px 0}
+.divider{height:1px;background:rgba(15,23,42,0.06);margin:10px 0}
 
 
-.section-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.section-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;background: #e8f6f9;padding: 10px 5px;border-radius: 5px;font-weight:bold}
 .skill-badges{display:flex;flex-wrap:wrap;gap:8px}
 .badge{background:#afb9b9;color:var(--accent);padding:6px 8px;border-radius:8px;font-size:12px;color:#ffffff}
 
@@ -62,7 +63,7 @@ h1{font-size:20px;margin:6px 0 0;color:#0e64b1;padding-top:120px;padding-left:5p
 
     /* right column */
 .right{padding:28px 32px}
-.summary{font-size:14px;color:#374151;line-height:1.6}
+.summary{font-size:14px;color:#374151;line-height:1.6;text-align:justify}
 
 
 .job{margin-bottom:16px}
